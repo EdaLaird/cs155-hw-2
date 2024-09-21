@@ -1,0 +1,39 @@
+Return-Path: <edalynlaird@u.boisestate.edu>
+Received: from localhost.localdomain (h135-135-164-44.mrdoid.broadband.dynamic.tds.net. [135.135.164.44])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-207946d1549sm112846915ad.136.2024.09.21.15.36.52
+        for <edalynlaird@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 21 Sep 2024 15:36:52 -0700 (PDT)
+From: EdaLaird <edalynlaird@u.boisestate.edu>
+To: edalynlaird@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Sat, 21 Sep 2024 16:36:49 -0600
+Message-ID: <20240921223649.2562-1-edalynlaird@u.boisestate.edu>
+X-Mailer: git-send-email 2.43.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..e66c1e8
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My Name
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..87adb74
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Sat Sep 21 03:49:43 PM MDT 2024
+-- 
+2.43.0
+
